@@ -1,0 +1,21 @@
+.show_div {
+  width: 300px;
+  margin: 0 auto; }
+  .show_div .empty {
+    border: 1px blue solid;
+    height: 100px;
+    display: none; }
+  .show_div .form_div {
+    border: 1px red solid;
+    height: 100px;
+    display: none; }
+  .show_div .job_list {
+    border: 1px green solid;
+    height: 100px;
+    display: none; }
+  .show_div.parent_empty .empty {
+    display: block; }
+  .show_div.parent_form .form_div {
+    display: block; }
+  .show_div.parent_job_list .job_list {
+    display: block; }

@@ -1,0 +1,30 @@
+.tab_main {
+  width: 500px;
+  margin: 0 auto; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+.tab_box ul li {
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ccc; }
+  .tab_box ul li.cur {
+    background-color: #f60;
+    color: #fff; }
+
+.tab_box .tab_con .li_div {
+  height: 200px;
+  border: 1px red solid;
+  display: none; }
+  .tab_box .tab_con .li_div.cur {
+    display: block; }
